@@ -23,7 +23,7 @@ public class UserService {
     user.setName(request.getName());
     user.setEmail(request.getEmail());
     user.setPassword(request.getPassword());
-    user.setPhoneNumber(request.getPhoneNumber());
+    user.setPhoneNumber(request.getPhone());
 
     return repo.save(user);
 }
